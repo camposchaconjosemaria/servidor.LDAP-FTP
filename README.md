@@ -9,7 +9,7 @@
 5. [Prueba de conexión](#5-Prueba-de-conexión)
 6. [Referencias](#6-Referencias)
 7. [Licencia](#7-licencia)
-Prueba de conexión
+
 
 ---
 
@@ -110,7 +110,7 @@ chmod 755 /srv/ftpusers/rigoberta
 
 ## 6. Referencias
 
-[Servidor proFTPd: Usuarios virtuales con LDAP](https://plataforma.josedomingo.org/pledin/cursos/servicios2008/doc/Servidor_proFTPd_Usuarios_virtuales_con_LDAP)
+- [Servidor proFTPd: Usuarios virtuales con LDAP](https://plataforma.josedomingo.org/pledin/cursos/servicios2008/doc/Servidor_proFTPd_Usuarios_virtuales_con_LDAP)
 
 ## 7. Licencia
 
