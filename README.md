@@ -89,7 +89,7 @@ objectclass: top
 uidNumber: 2002
 gidNumber: 2002
 homeDirectory: /srv/ftp/rigoberta
-userPassword: {MD5}r0hXtCWl+3Cck4ChQ2zI+g==
+userPassword: {MD5}r0hXtCWl+3Cck4ChQ2zI+g==  #Creada a partir del comando slappasswd -h {MD5} -s contraseña
 loginShell: /bin/false
 ```
 
