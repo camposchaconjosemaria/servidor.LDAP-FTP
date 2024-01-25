@@ -1,13 +1,15 @@
-# servidor.LDAP-FTP
+# Servidor FTP con LDAP
 
 ## Índice
 
 1. [Introducción](#1-Introducción)
 2. [Instalación de paquetes](#2-Instalación-de-los-paquetes-necesarios)
 3. [Configuraciones](#3-Configuraciones)
-4. [Prueba de conexión](#4-Crear-estructura-Ldap-y-añadir-usuarios)
-5. [Referencias](#5-Prueba-de-conexión)
-6. [Licencia](#6-licencia)
+4. [Crear estructura Ldap y añadir usuarios](#4-Crear-estructura-Ldap-y-añadir-usuarios)
+5. [Prueba de conexión](#5-Prueba-de-conexión)
+6. [Referencias](#6-Referencias)
+7. [Licencia](#7-licencia)
+Prueba de conexión
 
 ---
 
@@ -101,26 +103,20 @@ chown 2002 /srv/ftpusers/rigoberta
 chmod 755 /srv/ftpusers/rigoberta
 ```
 
-Podríamos hacerlo de forma automática con la activación del siguiente módulo en el proftpd.conf
-```bash
-<IfModule mod_ifsession.c>
-  <IfGroup special>
-    CreateHome on 755 dirmode 755
-  </IfGroup>
-
-  <IfGroup !special>
-    CreateHome on 711 dirmode 711
-  </IfGroup>
-</IfModule>
-```
-
 
 ## 5. Prueba de conexión
 
 ![image](https://github.com/camposchaconjosemaria/servidor.LDAP-FTP/assets/114906855/2fb3f5c7-b7ee-406b-9438-40353ba0ba43)
 
+## 6. Referencias
 
+[Servidor proFTPd: Usuarios virtuales con LDAP](https://plataforma.josedomingo.org/pledin/cursos/servicios2008/doc/Servidor_proFTPd_Usuarios_virtuales_con_LDAP)
 
+## 7. Licencia
+
+<p align="center">
+  <img src="https://github.com/camposchaconjosemaria/servidorProFTP/assets/114906855/a4f36118-06cf-4a79-8eda-e0e029c21ff2" alt="licencia">
+</p>
 
 
 
