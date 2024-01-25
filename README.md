@@ -26,7 +26,7 @@ Para poder realizar esta práctica vamos a necesitar los siguientes paquetes:
 
 ```bash
 sudo apt install proftpd
-sudo apt install slapd
+sudo apt install slapd ldap
 sudo apt install proftpd-mod-ldap
 ```
 
