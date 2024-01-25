@@ -1,5 +1,7 @@
 # Servidor FTP con LDAP
 
+![image](https://github.com/camposchaconjosemaria/servidor.LDAP-FTP/assets/114906855/7e7a9d7e-7fcf-41b9-b98f-b8b143eb1ffd)
+
 ## Índice
 
 1. [Introducción](#1-Introducción)
