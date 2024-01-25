@@ -26,7 +26,7 @@ Para poder realizar esta práctica vamos a necesitar los siguientes paquetes:
 
 ```bash
 sudo apt install proftpd
-sudo apt install slapd ldap
+sudo apt install slapd ldap-utils
 sudo apt install proftpd-mod-ldap
 ```
 
@@ -54,6 +54,7 @@ Además debemos añadir las siguientes dos líneas con los datos de nuestro LDAP
 LDAPUsers ou=people,dc=rodrigocaro,dc=net (uid=%u) (uidNumber=%u)
 LDAPGroups ou=group,dc=rodrigocaro,dc=net uniqueMember=%u
 ```
+Reiniciamos el servicio y comprobamos la configuración con el comando ***slapcat***. En el caso que no se haya creado igual, con el comando ***#dpkg-reconfigure slapd*** podríamos solucionarlo.
 
 ## 4. Crear estructura Ldap y añadir usuarios
 Creamos los archivos ldif correspondientes. Yo lo voy a realizar en dos archivos, en el primero inserto la base y en el segundo los grupos y usuarios:
