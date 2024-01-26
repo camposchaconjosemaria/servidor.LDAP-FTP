@@ -100,10 +100,10 @@ ldapadd -x -D "cn=admin,dc=rodrigocaro,dc=net" -W -f usuarios.ldif
 ```
 Solo nos faltaría crear el directorio de trabajo de rigoberta y darle los permisos correspondientes que sería:
 ```bash
-mkdir -p /srv/ftpusers/rigoberta 
-chgrp 2002 /srv/ftpusers 
-chown 2002 /srv/ftpusers/rigoberta 
-chmod 755 /srv/ftpusers/rigoberta
+mkdir -p /srv/ftp/rigoberta 
+chgrp 2002 /srv/ftp
+chown 2002 /srv/ftp/rigoberta 
+chmod 755 /srv/ftp/rigoberta
 ```
 
 
